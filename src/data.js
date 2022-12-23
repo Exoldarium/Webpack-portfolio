@@ -3,7 +3,7 @@ export const projects = [
     title: "Game Deals Searching App",
     description:
       "Game deals searching app using CheapShark API, made completely from scratch without using any frameworks, libraries or compilers. Just pure vanilla JavaScript, CSS and HTML",
-    image: "/images/animation.gif",
+    image: require("./images/animation.gif"),
     link: "https://exoldarium.github.io/Game-Deals-Page/",
   },
 
@@ -11,7 +11,7 @@ export const projects = [
     title: "Super Cool Shoes",
     description: 
       "A product page built using React. The user can add and delete product from the cart. The cart data persists on page reload. User can also browse through pictures or enlarge the selected picture from the gallery. It's built using responsive design and accesibility in mind.",
-    image: "/images/sneakersAnimation.gif",
+    image: require("./images/sneakersAnimation.gif"),
     link: "https://exoldarium.github.io/Super-Cool-Sneakers/"
   }
 ];

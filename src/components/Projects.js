@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+// import gameDealsGif from "../images/animation.gif";
+// import sneakersGif from "../images/sneakersAnimation.gif";
 
 function Projects(props) {
   const projects = props.projects;
@@ -43,21 +45,21 @@ function Projects(props) {
               key={project.image}
               className="projects_linkInfo"
             >
-            <div className="projects_imgDiv">
-              <img
-                alt="projectphotos"
-                className="project_images"
-                src={project.image}
-              />
+              <div className="projects_imgDiv">
+                <img
+                  alt="projectphotos"
+                  className="project_images"
+                  src={project.image}
+                />
+                </div>
+                <div className="projects_hoverDivInfo">
+                <h1 className="projects_projectHeaderInfo">
+                  {project.title}
+                </h1>
+                <p className="projects_paragraphInfo">
+                  {project.description}
+                </p>
               </div>
-              <div className="projects_hoverDivInfo">
-              <h1 className="projects_projectHeaderInfo">
-                {project.title}
-              </h1>
-              <p className="projects_paragraphInfo">
-                {project.description}
-              </p>
-            </div>
             </a>
           ))}
         </div>
