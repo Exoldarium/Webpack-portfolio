@@ -11,7 +11,7 @@ module.exports = {
     maxAssetSize: 512000
   },
   output: {
-    path: path.resolve(__dirname, './build'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
   },
   target: 'web',
