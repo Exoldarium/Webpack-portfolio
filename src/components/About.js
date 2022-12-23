@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import githubImage from "../images/github.svg";
+import linkedinImage from "../images/linkedin.svg";
+import mailImage from "../images/mail.svg";
 
 function About(props) {
   const images = props.socialImages[0];
@@ -36,7 +39,7 @@ function About(props) {
                 <img
                   alt="linkedinImage"
                   className="socialImage linkedinImage"
-                  src={images.linkedinImage}
+                  src={linkedinImage}
                 />
               </a>
             <a
@@ -47,7 +50,7 @@ function About(props) {
               <img
                 alt="mailImage"
                 className="socialImage mailImage"
-                src={images.mailImage}
+                src={mailImage}
               />
             </a>
           </div>         
