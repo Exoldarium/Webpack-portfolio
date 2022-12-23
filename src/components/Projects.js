@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import gameDealsGif from "../images/animation.gif";
-// import sneakersGif from "../images/sneakersAnimation.gif";
 
 function Projects(props) {
   const projects = props.projects;
