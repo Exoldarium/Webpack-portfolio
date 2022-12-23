@@ -7,7 +7,6 @@ module.exports = {
   entry: './src/index.js',
   mode: 'production',
   performance: {
-    hints: false,
     maxEntrypointSize: 512000,
     maxAssetSize: 512000
   },
@@ -44,7 +43,7 @@ module.exports = {
       },
       {
         test: /\.(jpg|jpeg|png|gif|mp3|svg)$/,
-        use: ["file-loader"],
+        use: 'asset/resource',
       },
     ],
   },
