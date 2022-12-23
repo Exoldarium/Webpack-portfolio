@@ -2,7 +2,7 @@
 
 A portfolio web-site where i showcase my work
 
-[The Website](https://exoldarium.github.io/Portfolio/)
+[The Website](https://exoldarium.github.io/Webpack-portfolio/)
 
 ## General info
 
