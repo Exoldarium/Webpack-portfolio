@@ -22,7 +22,7 @@ function About(props) {
           <div className={`about_socialLinks ${isActive ? 'transition3' : ''}`}>
               <a
                 href={images.githubLink}
-                key={images.githubImage}
+                // key={images.githubImage}
                 className="gitHub_link"
               >
                 <img
@@ -33,7 +33,7 @@ function About(props) {
               </a>
               <a
                 href={images.linkedinLink}
-                key={images.linkedinImage}
+                // key={images.linkedinImage}
                 className="linkedin_link"
               >
                 <img
