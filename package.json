@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://exoldarium.github.io/Portfolio-webpack/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
