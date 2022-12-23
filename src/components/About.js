@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import githubImage from "../images/github.svg";
 
 function About(props) {
   const images = props.socialImages[0];
