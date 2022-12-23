@@ -19,11 +19,11 @@ export const projects = [
 export const skills = ['JavaScript' , "HTML", "CSS", "React", "Git"];
 
 export const socialImages = [
-{
-  linkedinImage: '/images/linkedin.svg',
-  githubImage: '/images/github.svg',
-  linkedinLink: 'https://www.linkedin.com/in/dusan-milosavljevic-675ab5230/',
-  githubLink: 'https://github.com/Exoldarium',
-  mailImage: '/images/mail.svg'
-}
+  {
+    linkedinImage: '/images/linkedin.svg',
+    githubImage: '/images/github.svg',
+    linkedinLink: 'https://www.linkedin.com/in/dusan-milosavljevic-675ab5230/',
+    githubLink: 'https://github.com/Exoldarium',
+    mailImage: '/images/mail.svg'
+  }
 ];
