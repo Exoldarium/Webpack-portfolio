@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import githubImage from "../images/github.svg";
 
 function About(props) {
   const images = props.socialImages[0];
@@ -25,7 +26,7 @@ function About(props) {
                 <img
                   alt="gitImage"
                   className="socialImage gitImage"
-                  src={images.githubImage}
+                  src={githubImage}
                 />
               </a>
               <a
