@@ -29,7 +29,7 @@ function Projects(props) {
       <div className="projects_list">
         <h1 className="projects_headerMain">
           <p className={`projects_paragraphMain ${isHalfShown ? 'transition1' : ''}`}>My Projects</p>
-          <p className={`projects_paragraphBuilt ${isHalfShown ? 'transition2' : ''}`}>Stuff i've built so far</p>
+          <p className={`projects_paragraphBuilt ${isHalfShown ? 'transition2' : ''}`}>Stuff I've built so far</p>
         </h1>
         <div className={`projects_div ${isHalfShown ? 'transition3' : ''}`}>
           {projects.map((project) => (

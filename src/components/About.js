@@ -20,7 +20,7 @@ function About(props) {
             <p className={`paragraph title_paragraph ${isActive ? 'transition1' : ''}`}>Hi, I'm</p>
               <span className={`paragraph name_title ${isActive ? 'transition2' : ''}`}>
                 <p className="paragraph name_paragraph">Dusan</p>
-                <p className="paragraph titleAbout_paragraph">Web developer</p>
+                <p className="paragraph titleAbout_paragraph">Web Developer</p>
               </span>
           </h1>
           <div className={`about_socialLinks ${isActive ? 'transition3' : ''}`}>

@@ -401,6 +401,9 @@ code {
     font-weight: bold;
     text-align: center;
   }
+  .contact_spanConfirmation {
+    width: 85vw;
+  }
 }
 
 .menu {

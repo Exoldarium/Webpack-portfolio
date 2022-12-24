@@ -28,7 +28,7 @@ function Skills(props) {
       <section id="skills">
         <div className="skills_list">
             <h1 className="skills_header">
-                <p className={`skills_paragraphSkillTech ${isHalfShown ? 'transition1' : ''}`}>Skills and technologies</p>
+                <p className={`skills_paragraphSkillTech ${isHalfShown ? 'transition1' : ''}`}>Skills and Technologies</p>
                 <p className={`skills_paragraphWorking ${isHalfShown ? 'transition2' : ''}`}>Currently working with</p>
             </h1>
             <div className={`skills_skillBars ${isHalfShown ? 'transition3' : ''}`}>
