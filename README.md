@@ -1,6 +1,6 @@
 # Portfolio
 
-A portfolio web-site where i showcase my work
+A portfolio website where i showcase my work
 
 [The Website](https://exoldarium.github.io/Webpack-portfolio/)
 
