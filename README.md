@@ -20,7 +20,7 @@ npm run start
 ## Technologies
 Project is created with:
 
-* [React](https://beta.reactjs.org/) - The web framework used
+* [React](https://beta.reactjs.org/)
 * [Webpack](https://webpack.js.org/) - Bundling
 * [Formspree](https://formspree.io/) - Contact form
 
