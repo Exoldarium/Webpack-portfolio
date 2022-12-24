@@ -6,8 +6,17 @@ A portfolio web-site where i showcase my work
 
 ## General info
 
-Originally i made my portofolio using CRA but i decided to switch to webpack as a way to learn how to start my own React app. CRA is great but i didn't need all of the dependencies that it comes with for this website. It was a challenge setting everything up to work how i wanted but it was a great learning experience. 
+Originally i made my portofolio using CRA but i decided to switch to webpack as a way to learn how to start my own React app. The code was taken from my previous portfolio app that was already finished so i've mostly been configuring webpack in this repo and setting everything up to work how i wanted. CRA is great but i realized that i didn't need all of the dependencies that it comes with for this website. It was a challenge setting everything at first but also a great learning experience. 
 
+## Installation
+Install dependencies
+```bash
+npm install
+```
+Run the app localy
+```bash
+npm run start
+```
 ## Technologies
 Project is created with:
 
