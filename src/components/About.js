@@ -1,13 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function About(props) {
   const images = props.socialImages[0];
   const [isActive, setIsActive] = useState(false);
-  const onLoad = () => setIsActive(!isActive);
+
+  useEffect(() => {
+    function handleActive() {
+      setIsActive(!isActive);
+    }
+    window.addEventListener('load', handleActive);
+    return () => window.removeEventListener('load', handleActive);
+  }, [isActive, setIsActive]);
 
   return (
     <section id="about">
-      <div className="about_info" onLoad={onLoad}>
+      <div className="about_info">
         <div className="about_divHeader">
           <h1 className="header about_header1">
             <p className={`paragraph title_paragraph ${isActive ? 'transition1' : ''}`}>Hi, I'm</p>
