@@ -9,9 +9,11 @@ import { socialImages } from './data';
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(
-  <App
-    projects={projects}
-    skills={skills}
-    socialImages={socialImages}
-  />
+  <React.StrictMode>
+    <App
+      projects={projects}
+      skills={skills}
+      socialImages={socialImages}
+    />
+  </React.StrictMode>
 );
